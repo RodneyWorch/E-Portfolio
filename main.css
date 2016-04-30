@@ -115,3 +115,8 @@ article {
   margin: 13px;
   color: white;
 }
+
+a {
+	color: white;
+	text-decoration: none;
+}
