@@ -28,10 +28,44 @@
         <article>
           <header>
             <hgroup>
-              <h1 style="text-align: center">Courses</h1></br>
-              <p>The collection of my work is important to me.  It shows that I am learning and growing to be an active member in todays society.</p></br>
-              <h1>About me!</h1></br>
-              <p>I was born and raised in Salt Lake City, Utah. Growing up I have always been fond of music, photography, and especially enjoyed the outdoors. I finished high school and started taking classes at Salt lake Community College. After a year and a half I decided that I would take some time off and travel to Alaska for the summer. With very little money in my pocket I found a job at a fish processing plant in Nek Nek, Alaska where i worked for 3 weeks and made enough money to make it through the summer. I ended up backpacking and camping across the state of Alaska and into the Yukon territory of Canada. When it came time to come home, I couldn't bring myself to it. I ended up moving to a small town 35 miles Southeast of Anchorage by the name of Girdwood where I lived for the next 10 years.</p>
+              <h1>Courses work</h1></br>
+              <p>Click on each course below to see examples of my best work.</p></br>
+              <h1>Courses</h1></br>
+              <!-- columns divs, float left, no margin so there is no space between column, width=1/3, Radio button -->
+    <div id="column1" style="float:left; margin:0; width:33%;">
+      Was This Helpful:
+      <form>
+        <input type="radio" name="yesorno" value="Yes" checked> Yes
+        <br>
+        <input type="radio" name="yesorno" value="No"> No
+        <br>
+      </form>
+    </div>
+
+    <!-- columns divs, float left, no margin so there is no space between column, width=1/3, Check Box -->
+    <div id="column2" style="float:left; margin:0;width:33%;">
+      Do you want to visit Alaska:
+      <form>
+        <input type="checkbox" name="yesorno" value="Yes" checked> Yes
+        <br>
+        <input type="checkbox" name="yesorno" value="No"> No
+        <br>
+      </form>
+    </div>
+    <!-- columns divs, float left, no margin so there is no space between column, width=1/3, Drop Down List -->
+    <div id="column3" style="float:right; margin:0;width:33%">
+      What city to visit:
+      <form action="action_page.php">
+        <select name="citys">
+          <option value="Girdwood">Girdwood</option>
+          <option value="Anchorage">Anchorage</option>
+          <option value="Homer" selected>Homer</option>
+          <option value="Haines">Haines</option>
+        </select>
+        <br>
+        <input type="submit">
+      </form>
+    </div>
             </hgroup>
           </header>
         </article>
